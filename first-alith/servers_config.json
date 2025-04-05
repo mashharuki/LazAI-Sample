@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ]
+    },
+    "metis": {
+      "command": "python3",
+      "args": [
+        "mcp_server.py"
+      ]
+    }
+  }
+}
